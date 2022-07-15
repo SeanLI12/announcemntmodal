@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../../css/style.css?vs=5c6cdfff070" />
+    <script>
+      if (typeof globalThis === 'undefined') {
+        var globalThis = Function('return this')();
+      }
+    </script>
+    <title>Bet Builder Modal</title>
+  </head>
+  <body>
+    <div class="announcement-full">
+      <div class="announcement-page">
+        <div id="announcement-overlay" class="announcement-overlay"></div>
+        <div id="announcement-container" class="announcement-container">
+          <div id="announcement">
+            <!-- Header -->
+            <header class="announcement-header" id="shadow-header">
+              <h3 class="truncate" id="header_text"></h3>
+              <h4 class="truncate" id="subheader_text"></h4>
+              <button id="close-button" class="close-button">
+                <svg width="16" height="16" xmlns="http://www.w3.org/2000/svg">
+                  <g fill="none" fill-rule="evenodd" fill-opacity=".64">
+                    <path d="M-8-8h32v32H-8z" />
+                    <path
+                      d="M15.183.41l.516.604a.5.5 0 01-.03.68L9.276 8l6.393 6.306a.5.5 0 01.03.68l-.516.606a.5.5 0 01-.731.031L8 9.26l-6.452 6.363a.5.5 0 01-.731-.031L.3 14.986a.5.5 0 01.03-.68l6.392-6.307L.331 1.695a.5.5 0 01-.03-.68L.817.408a.5.5 0 01.731-.031L8 6.74 14.452.378a.5.5 0 01.731.031z"
+                      fill="#000"
+                      fill-rule="nonzero"
+                      fill-opacity=".64"
+                    />
+                  </g>
+                </svg>
+              </button>
+            </header>
+
+            <!-- Body -->
+            <div class="announcement-body" id="scroll-body">
+              <div class="animation-container" id="animation_container">
+                <div
+                  class="animation-container-overlay"
+                  id="animation_container_overlay"
+                ></div>
+                <button
+                  id="replay_animation_button"
+                  class="replay-animation-button"
+                >
+                  <!-- ICON 1 -->
+                  <svg
+                    width="48"
+                    height="48"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <g fill="none" fill-rule="evenodd">
+                      <circle fill="#FFF" cx="24" cy="24" r="24" />
+                      <path
+                        d="M23.827 10c7.622 0 13.82 6.274 13.82 13.982v.046l2.737-4.167a.877.877 0 0 1 1.222-.251c.405.27.516.825.248 1.235l-3.971 6.043a.883.883 0 0 1-.627.39c-.04.006-.072.006-.111.006a.859.859 0 0 1-.588-.23l-5.52-5.027a.903.903 0 0 1-.064-1.261.88.88 0 0 1 1.247-.066l3.664 3.348v-.066c0-6.73-5.408-12.199-12.057-12.199s-12.064 5.469-12.064 12.199c0 6.73 5.409 12.199 12.058 12.199 3.22 0 6.25-1.268 8.523-3.573a.872.872 0 0 1 1.248 0 .896.896 0 0 1 0 1.261c-2.613 2.642-6.081 4.095-9.771 4.095C16.205 37.964 10 31.696 10 23.982 10 16.268 16.205 10 23.827 10Z"
+                        fill="#33997A"
+                      />
+                    </g>
+                  </svg>
+
+                  <!-- ICON 2 -->
+                  <!-- <svg
+                    width="48"
+                    height="48"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <g fill="none" fill-rule="evenodd">
+                      <circle fill="#33997A" cx="24" cy="24" r="24" />
+                      <path
+                        d="M23.827 10c7.622 0 13.82 6.274 13.82 13.982v.046l2.737-4.167a.877.877 0 0 1 1.222-.251c.405.27.516.825.248 1.235l-3.971 6.043a.883.883 0 0 1-.627.39c-.04.006-.072.006-.111.006a.859.859 0 0 1-.588-.23l-5.52-5.027a.903.903 0 0 1-.064-1.261.88.88 0 0 1 1.247-.066l3.664 3.348v-.066c0-6.73-5.408-12.199-12.057-12.199s-12.064 5.469-12.064 12.199c0 6.73 5.409 12.199 12.058 12.199 3.22 0 6.25-1.268 8.523-3.573a.872.872 0 0 1 1.248 0 .896.896 0 0 1 0 1.261c-2.613 2.642-6.081 4.095-9.771 4.095C16.205 37.964 10 31.696 10 23.982 10 16.268 16.205 10 23.827 10Z"
+                        fill="#FFF"
+                      />
+                    </g>
+                  </svg> -->
+                </button>
+              </div>
+              <div class="content-wrapper">
+                <div class="bet-builder-text" id="bet_builder_text"></div>
+                <!-- LEARN MORE -->
+                <div class="bet-builder-learn-more">
+                  <a
+                    id="learn-more-link"
+                    href="#"
+                    rel="noopener noreferrer"
+                  ></a>
+                </div>
+              </div>
+              <!-- <div class="announcement-footer"></div> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="../../js/lottie-player.js"></script>
+    <script src="../../js/script.js?vs=5c6cdfff070" charset="utf-8"></script>
+    <script src="../../js/trans.js?vs=5c6cdfff070"></script>
+  </body>
+</html>
