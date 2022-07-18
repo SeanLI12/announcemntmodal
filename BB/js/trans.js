@@ -29,7 +29,9 @@ const translationData = [
     en: [
       "Bet Builder is a type of bet where you can combine selections from the same event into a single bet – a same-event parlay or multiple!",
     ],
-    zh: ["创造玩法是一种可以让您在同一场赛事中自行组合成为一个盘口。"],
+    zh: [
+      "创造玩法是一种可以让您在同一场赛事中自行组合盘口成为一个注单 -- 犹如同场赛事的连串过关或复式过关!",
+    ],
     vi: [
       "Cược Tùy Chọn là một loại cược mà Quý Khách có thể kết hợp các lựa chọn từ cùng một trận đấu thành một cược đơn hoặc một cược xâu từ cùng trận đấu!",
     ],
@@ -55,7 +57,7 @@ const translationData = [
   {
     trans_id: "learn-more-link",
     en: "Learn More",
-    zh: "了解更多",
+    zh: "查看更多",
     vi: "TÌM HIỂU THÊM",
     id: "PELAJARI LEBIH LANJUT",
     th: "อ่านเพิ่มเติม",
@@ -71,7 +73,7 @@ const animationTranslationData = [
   {
     layerName: "#SelectAMatch",
     en: "Select a match and look for the Bet Builder tab.",
-    zh: "选一场赛事后寻找创造玩法的分页。",
+    zh: "选一场赛事后寻找‘创造玩法’的选项。",
     vi: "Chọn 1 trận đấu và tìm kiếm tab Cược Tùy Chọn.",
     id: "Pilih pertandingan dan cari tab Bet Builder.",
     th: "เพียงเลือกแมทช์ที่ต้องการและกดปุ่ม สร้างบิลสเต็ป",
