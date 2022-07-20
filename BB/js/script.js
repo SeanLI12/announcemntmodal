@@ -145,13 +145,3 @@ if (mode == "app") {
     .querySelector("[rel='stylesheet']").href =
     "../../css/style_app.css?vs=5c6cdfff070";
 }
-
-
-
-
-
-
-
-
-
-  

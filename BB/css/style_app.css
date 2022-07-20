@@ -1,12 +1,4 @@
 @font-face {
-  font-family: "Helvetica-Bold";
-  src: url("../fonts/Helvetica-Bold.ttf") format("opentype");
-}
-@font-face {
-  font-family: "Helvetica";
-  src: url("../fonts/Helvetica.ttf") format("opentype");
-}
-@font-face {
   font-family: "Khmer";
   src: url("../fonts/Khmer.ttf") format("opentype");
 }
@@ -43,7 +35,7 @@
   outline: 1px solid slategrey;
 } */
 
-#loginContainer{
+#loginContainer {
   display: block;
   position: absolute;
   left: 0;
@@ -56,37 +48,47 @@
   box-sizing: border-box;
   text-align: center;
 }
-#loginContainer.hide{
+#loginContainer.hide {
   display: none;
 }
-#passwordfield{
-    width: 50%;
-    display: inline-block;
-    position: relative;
-    height: 48px;
-    text-align: center;
-    border-radius: 8px;
-    transition:.3s all;
+#passwordfield {
+  width: 50%;
+  display: inline-block;
+  position: relative;
+  height: 48px;
+  text-align: center;
+  border-radius: 8px;
+  transition: 0.3s all;
 }
 @keyframes noded {
-  0%   {transform:translateX(0);}
-  20%  {transform:translateX(10%);}
-  40%  {transform:translateX(0);}
-  800% {transform:translateX(-20%);}
-  100% {transform:translateX(0);}
+  0% {
+    transform: translateX(0);
+  }
+  20% {
+    transform: translateX(10%);
+  }
+  40% {
+    transform: translateX(0);
+  }
+  800% {
+    transform: translateX(-20%);
+  }
+  100% {
+    transform: translateX(0);
+  }
 }
-#passwordfield.wrong{
-  border-color:red;
+#passwordfield.wrong {
+  border-color: red;
   animation-name: noded;
-  animation-duration: .3s;
+  animation-duration: 0.3s;
 }
-input[type="submit"]{
-    margin-top:16px;
-    display: inline-block;
-    text-align: center;
-    height: 48px;
-    width: 50%;
-    border-radius: 8px;
+input[type="submit"] {
+  margin-top: 16px;
+  display: inline-block;
+  text-align: center;
+  height: 48px;
+  width: 50%;
+  border-radius: 8px;
 }
 
 * {
