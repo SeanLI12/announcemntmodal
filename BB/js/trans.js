@@ -167,7 +167,6 @@ const replayButton = document.getElementById("replay_animation_button");
 const { lang } = document.documentElement;
 
 // JSON file (located in LottieFiles) to load the animation w/ dynamic text
-// Modified fonts to use CSS
 
 /* JSON Local file */
 let lottieJSON = "../../js/animation.json";
